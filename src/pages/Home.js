@@ -1,5 +1,5 @@
 const Home=()=>{
-return <h1>Hello to home page</h1>
+return <h1>Hello to home... page</h1>
 
 
 }

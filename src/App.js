@@ -6,19 +6,18 @@ import {
 
 import Home from './pages/Home';
 import About from './pages/About';
+import Navigation from './components/Navigation';
 
 const App=()=> { 
     
     return(
-   <>
+   <> 
      <Router>
 
-          <Link to="/">Home</Link>
-          <Link to="/About">About</Link>
-
+      <Navigation/>
         <Routes>
    
-            <Route path='/' element={<Home/>} />
+            <Route path='/' element={<Home/>} exact />
             <Route path='/About' element={<About/>} />
 
         </Routes>
