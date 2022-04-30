@@ -1,5 +1,8 @@
+import Products from '../components/Products'
+
 const Home=()=>{
 return(
+<>
 
 <div className="hero py-16">
    
@@ -18,9 +21,15 @@ return(
 </div>
 
 </div>
+<div className="pb-24">
+
+<Products/>
 
 
 
+</div>
+
+</>
 ) 
 }
 export default Home;
